@@ -459,3 +459,101 @@
     color: #bca858;
     transition: 1s;
 }
+
+.latestNews {
+    height: auto;
+    font-family: "Playfair Display", serif;
+}
+
+.latestNews span {
+    font-size: 20px;
+    color: #6e6e6e;
+}
+
+.latestNews .row {
+    flex-wrap: nowrap;
+}
+
+.latestNews .worktext {
+    flex-shrink: 1;
+}
+
+.headnews h1 {
+    font-size: 50px;
+}
+
+.latestNews img {
+    margin: 50px 0;
+    height: 250px;
+    width: 400px;
+}
+
+.worktext h1 {
+    font-size: 25px;
+}
+
+.worktext p {
+    color: #6e6e6e;
+    margin: 20px 0;
+}
+
+.worktext i {
+    margin-left: 10px;
+}
+
+.worktext p:hover,
+.worktext:hover h1 {
+    color: #bca858;
+    transition: 1s;
+}
+
+.makeStil {
+    background-color: #f6f9f9;
+    height: 60vh;
+    position: relative;
+    font-family: "Playfair Display", serif;
+    margin-top: 100px;
+}
+
+.makeStil .row div {
+    width: 40%;
+}
+
+.makeStil img {
+    height: 100%;
+    width: 50%;
+    position: absolute;
+    object-fit: cover;
+    right: 0;
+}
+
+.makeStil a {
+    text-decoration: none;
+    font-size: 17px;
+    border-radius: 20px;
+    padding: 10px 25px;
+    transition: 1s;
+    margin-right: 5px;
+}
+
+.bookbtn {
+    color: #ffffff;
+    border: 1px solid #bca858;
+    background-color: #bca858;
+}
+
+.contact {
+    color: black;
+    border: 1px solid black;
+}
+
+.makeStil h1 {
+    font-size: 50px;
+    margin-top: 100px;
+}
+
+.makeStil p {
+    color: #6e6e6e;
+    margin: 40px 0;
+    font-size: 17px;
+}
