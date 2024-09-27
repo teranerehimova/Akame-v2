@@ -557,3 +557,34 @@
     margin: 40px 0;
     font-size: 17px;
 }
+
+.footer {
+    height: 40vh;
+    margin-top: 100px;
+    font-family: "Playfair Display", serif;
+}
+
+.footer .row {
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.footer .row>div {
+    flex-shrink: 1;
+}
+
+
+.footer p {
+    font-size: 20px;
+    color: #6e6e6e;
+}
+
+.footer img {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.footer h1 {
+    font-size: 30px;
+    margin-bottom: 40px;
+}
