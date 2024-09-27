@@ -369,3 +369,93 @@
 .workview:hover p {
     color: #ffffff;
 }
+
+.ourexpert {
+    position: relative;
+    height: 100vh;
+}
+
+.ourexpert .expHeading,
+.ourexpert .teambox {
+    flex-wrap: nowrap;
+}
+
+.ourexpert .expHeading>div,
+.ourexpert .teambox>div {
+    flex-shrink: 1;
+}
+
+.expimg {
+    background-image: url(/assets/images/ourexpert.webp);
+    background-repeat: no-repeat;
+    height: 535px;
+    background-position-x: right;
+}
+
+.ourexpert::before {
+    position: absolute;
+    width: 100%;
+    height: 70%;
+    content: '';
+    z-index: -1;
+    background-color: #f6f9f9;
+}
+
+.exptext {
+    font-family: "Playfair Display", serif;
+    padding: 100px;
+}
+
+.exptext h1 {
+    font-size: 50px;
+}
+
+.exptext p {
+    font-size: 20px;
+    color: #6e6e6e;
+}
+
+.exptext img {
+    margin: 20px;
+}
+
+.teambox img {
+    width: 250px;
+    height: 240px;
+}
+
+.teambox h1 {
+    font-size: 25px;
+}
+
+.teambox p {
+    font-size: 15px;
+}
+
+.info {
+    margin-top: 10px;
+    font-family: "Playfair Display", serif;
+    margin-left: 50px;
+}
+
+.ourexpert {
+    position: relative;
+}
+
+.teambox {
+    z-index: 1;
+    position: absolute;
+    bottom: 30px;
+    left: 300px;
+    margin-bottom: 40px;
+    justify-content: center;
+}
+
+.team {
+    border: 1px solid rgb(186, 181, 181);
+}
+
+.team:hover h1 {
+    color: #bca858;
+    transition: 1s;
+}
